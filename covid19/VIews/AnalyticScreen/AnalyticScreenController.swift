@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AnalyticScreenController.swift
 //  covid19
 //
 //  Created by Nhat Nguyen on 16/5/20.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AnalyticScreenController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
-
-
 }
-
