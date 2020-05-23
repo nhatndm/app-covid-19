@@ -8,17 +8,17 @@
 
 import UIKit
 
-class Card: UIView {
+class CardValue: UIView {
   
-  let stackView = UIStackView()
-  var cardColor: UIColor
+  private let stackView = UIStackView()
+  private let cardColor: UIColor
   
-  var titleLabel: CustomLabel
-  var valueLabel: CustomLabel
+  private let titleLabel: CustomLabel
+  private let valueLabel: CustomLabel
   
   init(title: String?, value: Int?, backgroundColor: UIColor = THEME.COLOR.CVID_LIGHT_YELLOW) {
-    self.titleLabel = CustomLabel(value: title, color: nil, size: 15, isBold: nil)
-    self.valueLabel = CustomLabel(value: "\(value ?? 0)", color: nil, size: 35, isBold: true)
+    self.titleLabel = CustomLabel(value: title, color: nil, size: 15, fontName: "Poppins-Bold")
+    self.valueLabel = CustomLabel(value: "\(value ?? 0)", color: nil, size: 35, fontName: nil)
     
     self.cardColor = backgroundColor
     

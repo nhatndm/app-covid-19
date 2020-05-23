@@ -10,10 +10,10 @@ import Foundation
 import UIKit
 
 class Country {
-  var id: String
-  var name: String
-  var shortName: String
-  var flag: UIImage
+  let id: String
+  let name: String
+  let shortName: String
+  let flag: UIImage
   
   init(name: String, shortName: String, flag: UIImage) {
     self.id = UUID().uuidString

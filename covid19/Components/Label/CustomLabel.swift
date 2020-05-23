@@ -10,16 +10,16 @@ import UIKit
 
 class CustomLabel: UILabel {
   
-  var value: String?
-  var color: UIColor
-  var size: CGFloat
-  var isBold: Bool
+  private let value: String?
+  private let color: UIColor
+  private let size: CGFloat
+  private let fontName: String
   
-  init(value: String?, color: UIColor?, size: CGFloat?, isBold: Bool?) {
+  init(value: String?, color: UIColor?, size: CGFloat?, fontName: String?) {
     self.value = value
     self.color = color ?? THEME.COLOR.CVID_WHITE
     self.size = size ?? CGFloat(20)
-    self.isBold = isBold ?? false
+    self.fontName = fontName ?? "Poppins-Medium"
   
     super.init(frame: CGRect.zero)
     
@@ -35,11 +35,6 @@ class CustomLabel: UILabel {
     self.text = self.value
     self.textColor = self.color
     
-    if (self.isBold) {
-      self.font = UIFont(name: "Poppins-Medium", size: self.size)
-    } else {
-      self.font = UIFont(name: "Poppins-Regular", size: self.size)
-    }
-    
+    self.font = UIFont(name: self.fontName, size: self.size)
   }
 }

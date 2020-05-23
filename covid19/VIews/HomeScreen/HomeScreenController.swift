@@ -11,21 +11,30 @@ import UIKit
 class HomeScreenController: UIViewController {
   
   // Since the init function is not implemented, that's a reason why define stylying as optional
-  var styling: HomeScreenStyle?
-  var analyticBtn = UIButton()
-  var mockData = MockData()
-  var card = Card(title: "Affected", value: 1000)
+  private var styling: HomeScreenStyle?
+  private let analyticBtn = UIButton()
+  private let callnowBtn = CustomButton(
+    title: "Call Now",
+    isIcon: true,
+    iconName: .phoneAlt,
+    background: THEME.COLOR.CVID_LIGHT_RED,
+    textColor: THEME.COLOR.CVID_WHITE,
+    centerText: false
+  )
+  private let smsBtn = CustomButton(
+    title: "Send SMS",
+    isIcon: true,
+    iconName: .comment,
+    background: THEME.COLOR.CVID_LIGHT_BLUE,
+    textColor: THEME.COLOR.CVID_WHITE,
+    centerText: false
+  )
+  
+  private let mockData = MockData()
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.styling = HomeScreenStyle(homeView: self.view, analyticBtn: analyticBtn)
-    
-    self.view.addSubview(card)
-    
-    card.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-    card.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-    card.widthAnchor.constraint(equalToConstant: 200).isActive = true
-    card.heightAnchor.constraint(equalToConstant: 100).isActive = true
+    self.styling = HomeScreenStyle(homeView: self.view, analyticBtn: analyticBtn, callButton: callnowBtn, smsButton: smsBtn)
   }
 }

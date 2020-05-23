@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7E7D6138-CC2F-4F7B-B4BA-198EA3DC7D81"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9698AC13-47C4-4ACF-801F-CAB7B7051A8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19/VIews/HomeScreen/HomeScreenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "HomeScreenController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2133E04E-7B83-4241-83C4-43935901CD9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "covid19/VIews/HomeScreen/HomeScreenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "HomeScreenController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - 729ad3717c40bd0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.styling.getter : Swift.Optional&lt;covid19.HomeScreenStyle&gt;"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - ffb59408a476f138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.styling.setter : Swift.Optional&lt;covid19.HomeScreenStyle&gt;"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - 5bc7214aff313e09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.styling.modify : Swift.Optional&lt;covid19.HomeScreenStyle&gt;"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - f72e30fb3d07128"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.styling.modify : Swift.Optional&lt;covid19.HomeScreenStyle&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - 4a8b96a5be47d47f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; covid19.HomeScreenController"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  uuid = "2133E04E-7B83-4241-83C4-43935901CD9F - 3f5a146400d2ab64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "covid19.HomeScreenController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;covid19.HomeScreenController&gt;"
+                  moduleName = "covid19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sin/Desktop/IOS/covid19/covid19/VIews/HomeScreen/HomeScreenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "141">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

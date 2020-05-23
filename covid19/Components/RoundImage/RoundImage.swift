@@ -10,7 +10,7 @@ import UIKit
 
 class RoundImage: UIImageView {
   
-  var imgSize: Int
+  private let imgSize: Int
   
   init(image: UIImage, imgSize: Int = 40) {
     self.imgSize = imgSize
